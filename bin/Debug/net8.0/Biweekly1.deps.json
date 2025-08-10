@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Biweekly1/1.0.0": {
+        "runtime": {
+          "Biweekly1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Biweekly1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

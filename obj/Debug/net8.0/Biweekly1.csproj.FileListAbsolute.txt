@@ -1,0 +1,14 @@
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\bin\Debug\net8.0\Biweekly1.exe
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\bin\Debug\net8.0\Biweekly1.deps.json
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\bin\Debug\net8.0\Biweekly1.runtimeconfig.json
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\bin\Debug\net8.0\Biweekly1.dll
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\bin\Debug\net8.0\Biweekly1.pdb
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.AssemblyInfoInputs.cache
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.AssemblyInfo.cs
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.csproj.CoreCompileInputs.cache
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.dll
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\refint\Biweekly1.dll
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.pdb
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\Biweekly1.genruntimeconfig.cache
+C:\Users\bhuje\source\repos\Biweekly1\Biweekly1\obj\Debug\net8.0\ref\Biweekly1.dll
