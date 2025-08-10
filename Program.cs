@@ -26,8 +26,18 @@ namespace Hotel
 
                 int nights = GetValidNumberOfNights();
 
-                Console.WriteLine("Enter yes/no to indicate whether you want room service:");
-                string roomServiceInput = Console.ReadLine().ToLower();
+                // Change 1: Room service input validation
+                string roomServiceInput;
+                do
+                {
+                    Console.WriteLine("Enter yes/no to indicate whether you want room service:");
+                    roomServiceInput = Console.ReadLine().ToLower();
+
+                    if (roomServiceInput != "yes" && roomServiceInput != "no")
+                        Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                }
+                while (roomServiceInput != "yes" && roomServiceInput != "no");
+
                 bool roomService = roomServiceInput == "yes";
 
                 double cost = CalculateTotalCost(nights, roomService);
@@ -51,6 +61,21 @@ namespace Hotel
                     break;
 
                 Console.WriteLine("________________________________________");
+            }
+
+            // Change 2: Display average amount spent per customer
+            if (customers.Count > 0)
+            {
+                double averageCost = 0;
+                foreach (var customer in customers)
+                    averageCost += customer.Cost;
+                averageCost /= customers.Count;
+
+                Console.WriteLine($"\nAverage amount spent per customer: ${averageCost:F2}");
+            }
+            else
+            {
+                Console.WriteLine("\nNo customers to calculate average cost.");
             }
 
             DisplaySummary(customers);
